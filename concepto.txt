@@ -1,0 +1,9 @@
+JS se basa en objetos.
+Un objeto es una instancia de una clase, es decir es la representación de una entidad con propiedades y funciones.
+sintaxis 
+let pelota = {
+    color:azul,
+    rebotar(){
+        condigo para le método;
+    }
+}

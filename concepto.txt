@@ -7,3 +7,26 @@ let pelota = {
         condigo para le método;
     }
 }
+
+Las propiedades de un objeto se pueden acceder mediante la dotación de punto o como si fuera una posición de un array, ya que como tal tambien es un objeto iterable.
+
+por medio de estadotación del punto, tambien podemos referenciar a los objetos, pero lo más optimo es usar la palabra this.
+Esto nos permite llamar al método o pripedad de un objeto.
+
+constructor:
+Los contructores nos permiten crear un objeto una sola vez, y poder llamarlo cuantas veces queramos.
+A estos contructores, se les puede pasar pa´rametros para incializar sus atributos. esos parametros se envian en los parentecis del llamado a la función.
+
+function Pelota(parametro1,parametro2,...){
+    this.color = parametro1;
+    this.ladrar = function(){
+        cosnole.log("ladrando");
+    }
+}
+
+Llamado del constructor:
+
+let pelota1 = new Pelota("Negro");
+
+
+´cadena a concatenar ${parametro a concatenar} ${parametro a concatenar}´

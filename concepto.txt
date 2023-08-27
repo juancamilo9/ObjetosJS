@@ -30,3 +30,15 @@ let pelota1 = new Pelota("Negro");
 
 
 ´cadena a concatenar ${parametro a concatenar} ${parametro a concatenar}´
+En JS, smuchas de las cosas con las que intectuamos son objetos. JS responde al paradigma de la Progrmación Orientada a Objetos.
+
+Usar objetos para manipular cosas del mundo real
+
+El Loop for In es un ciclo que se usa para recorrer un objeto
+
+fot(let x in objeto){
+    console.log(objeto[x]);
+}
+
+
+

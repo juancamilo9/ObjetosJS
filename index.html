@@ -8,6 +8,45 @@
     <title>Objetos</title>
 </head>
 <body>
+    <div>
+        <h1>Registro de usuairos</h1>
+    </div>
+    <div>
+        <label for="nombre">Nombre: <input type="text" id="nombre"></label>
+    </div>
+    <div>
+        <label for="apellido">Apellido: <input type="text" id="apellido"></label>
+    </div>
+    <div>
+        <label for="contacto">Contacto: <input type="text" id="contacto"></label>
+    </div>
+    <div>
+        <label for="profesion">Prfesión: <input type="text" id="profesion"></label>
+    </div>
+    <div>
+        <label for="email">Correo: <input type="text" id="email"></label>
+    </div>
     
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Contacto</th>
+                    <th>Email</th>
+                    <th>Profesión</th>
+                </tr>
+            </thead>
+            <tbody id="listaUsuarios">
+                
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <button onclick="registrarUsuario()">Registrar usuario</button>
+        <button onclick="listarUsuarios()">Listar usuarios</button>
+    </div>
 </body>
 </html>
